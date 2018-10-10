@@ -1,0 +1,3 @@
+set alldiseasewikispider项目路径
+cd ../alldiseasewikispider/jbkpjt
+scrapy crawl jbkallwiki 

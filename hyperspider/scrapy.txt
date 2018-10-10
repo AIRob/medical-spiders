@@ -1,0 +1,10 @@
+scrapy startproject jbkpjt 
+cd jbkpjt
+scrapy genspider -t basic jbkhyper jbk.39.net/bw/
+
+set hyperspider工程路径
+
+cd ../hyperspider/jbkpjt
+
+scrapy crawl jbkhyper
+

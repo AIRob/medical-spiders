@@ -1,0 +1,128 @@
+###################
+命名规则 名词+名词或动词+名词
+###################
+疾病名:disease_name
+疾病简介:disease_profile
+
+疾病基本知识:disease_base
+别名:disease_alias
+是否属于医保:is_medical
+发病部位:incidence_site
+传染性:contagious
+多发人群:multiple_people
+典型症状:typical_symptoms
+并发症:complication
+
+疾病诊断:disease_diagnosis
+最佳就诊时间:best_time
+就诊时长:duration_visit
+复诊频率:followup_freq
+就诊前准备:pre_treat
+
+临床检查:clinical_exam更新为疾病检查:disease_check
+###################
+增加字段
+
+检查url:check_url
+常见检查:common_check
+检查:checks
+更新时间:check_updatetime
+浏览量:browse_count
+收藏量:collect_count  
+###################
+
+疾病症状:disease_symptoms
+详细症状:detail_symptoms
+并发症:complication 更新为详细并发症:detail_complication
+###################
+详细症状:detail_symptoms
+增加字段
+
+症状url:symptoms_url
+主要症状:common_symptoms
+相关症状:links_symptoms
+症状:symptoms
+更新时间:symptoms_updatetime
+浏览量:browse_count
+收藏量:collect_count
+###################
+详细并发症:detail_complication
+增加字段
+
+并发症url:complication_url
+常见并发症:common_complication
+并发症:complication
+更新时间:complication_updatetime
+浏览量:browse_count
+收藏量:collect_count
+###################
+
+疾病病因:disease_cause
+
+疾病治疗:disease_treat
+治疗方法:treat_method
+治疗费用:treat_costs
+治愈率:cure_rate
+治疗周期:treat_cycle
+常用药品:common_drugs
+就诊科室:visit_department
+
+药品:drugs
+***********************
+通用名称:
+goods_common_name
+comn_fst_nm
+***********************
+药品_id:md5(通用名称+批准文号)
+通用名称:drug_generic -- goods_common_name
+治疗病种:therapeutic_disease 新添加的字段
+商品名称:goods_name 新添加的字段
+药品价格:goods_price
+英文名称:english_name 新添加的字段
+批准文号:approval_rum
+适应症:indication
+功能主治:functions
+---是否是进口药:is_import
+成份:ingredients
+不良反应:adverse_reactions 
+注意事项:precautions
+禁忌:taboo
+药物相互作用:medicine_interactions
+药理作用:pharmacological_action
+特殊人群用药:special_population
+用法用量:dosage
+贮藏:storage 新添加的字段
+有效期:validity_period 新添加的字段
+剂型:drug_form
+规格:drug_spec
+说明书修订日期:manual_revision_date 新添加的字段
+生产名称:manufacturer
+企业简称:business_short_name 新添加的字段
+生产地址:production_address  新添加的字段
+联系电话:business_number     新添加的字段
+
+如何预防:how_prevent
+
+问答语料:qa_corpus 
+询问主题:ask_topic
+病情描述:condition_description
+回答:questions
+有用数量:count_useful
+
+***********************
+医生(城市医院)待确定
+***********************
+医生:doctors
+姓名:odctor_name
+擅长领域:exper_areas
+所属医院:hospital
+所属科室:depart
+就诊评价:visit_evaluation
+评价id:evaluate_id
+点赞数量:like_num
+发布时间:release_time
+就诊用户id:visit_id
+
+入库时间:create_time
+更新时间:update_time
+来源:source

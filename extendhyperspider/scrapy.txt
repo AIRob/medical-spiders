@@ -1,0 +1,3 @@
+set extendhyperspider项目路径
+cd ../extendhyperspider/jbkpjt
+scrapy crawl askfamhyper
